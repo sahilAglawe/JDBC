@@ -1,0 +1,48 @@
+package kapilit;
+
+
+        
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
+import java.sql.Statement;
+
+public class jdbcDemo {
+
+    public static void main(String[] args) {
+
+        Connection con = null;
+        Statement st = null;
+
+        try {
+            Class.forName("com.mysql.cj.jdbc.Driver");
+
+            con = DriverManager.getConnection(
+                "jdbc:mysql://localhost:3306/students",
+                "root",
+                "@Sahil123"
+            );
+
+            st = con.createStatement();
+
+          
+
+            st.executeUpdate("INSERT INTO students VALUES "
+                    + "(2, 'Priya', 21),"
+                    + "(6, 'Amit', 19)");
+
+            System.out.println("Data inserted successfully");
+
+        } catch (Exception e) {
+            e.printStackTrace();
+        } finally {
+            try {
+                if (st != null) st.close();
+                if (con != null) con.close();
+            } catch (SQLException e) {
+                e.printStackTrace();
+            }
+        }
+    }
+}
