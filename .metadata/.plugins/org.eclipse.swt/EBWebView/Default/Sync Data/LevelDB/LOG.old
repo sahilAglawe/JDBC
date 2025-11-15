@@ -1,2 +1,3 @@
-2025/11/14-21:18:55.027 4c4 Creating DB C:\Users\sahil\OneDrive\Desktop\Attachments\JDBC\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Sync Data\LevelDB since it was missing.
-2025/11/14-21:18:55.036 4c4 Reusing MANIFEST C:\Users\sahil\OneDrive\Desktop\Attachments\JDBC\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Sync Data\LevelDB/MANIFEST-000001
+2025/11/14-21:24:32.660 44a8 Reusing MANIFEST C:\Users\sahil\OneDrive\Desktop\Attachments\JDBC\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Sync Data\LevelDB/MANIFEST-000001
+2025/11/14-21:24:32.665 44a8 Recovering log #3
+2025/11/14-21:24:32.666 44a8 Reusing old log C:\Users\sahil\OneDrive\Desktop\Attachments\JDBC\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Sync Data\LevelDB/000003.log 
